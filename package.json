@@ -4,6 +4,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
+    "php": "php -S 0.0.0.0:80",
     "build": "vite build",
     "test": "echo 'No test specified'"
   },
