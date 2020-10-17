@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VUE3 TEMPLATE</title>
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link href="/css/tailwind.css" rel="stylesheet">
+</head>
+<body>
+<div id="app">App {{msg}}</div>
+<script type="importmap">
+{ 
+    "imports": {
+        "vue":        "/js/vue.esm-browser.js",
+        "vue-router": "/js/vue-router.esm-browser.js",
+        "vuex":       "/js/vuex.esm-browser.js"
+} }
+</script>
+<script type="module" src="./src/main.js" ></script>
+</body>
+</html>
